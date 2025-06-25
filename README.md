@@ -128,29 +128,26 @@ video-vector-search/
 - 🧾 **422 JSON errors:** Use valid raw JSON for vector input — no Python expressions or comments.  
 
 ---
-
 ## 📸 Screenshots
 
-> Add actual images in `screenshots/` folder and reference them like this:
-
 - Swagger UI:  
-  ![Swagger UI](screenshots/swagger_ui.png)
+  ![Image](https://github.com/user-attachments/assets/16af8abe-b30e-49ee-b624-3848d48f85ad)
 
 - Upload Video:  
-  ![Upload Video](screenshots/upload_video.png)
+  ![Image](https://github.com/user-attachments/assets/cfbab168-cf37-42cd-9f42-b50c77757e1d)
 
 - Search Results:  
-  ![Search Results](screenshots/search_results.png)
+  ![Image](https://github.com/user-attachments/assets/2071397f-2c0f-42e7-8b0d-ef3769789b4b)
 
 - Get Frame:  
-  ![Get Frame](screenshots/get_frame.png)
+![Image](https://github.com/user-attachments/assets/64d5de91-9098-4638-baa6-daa606fc4eed)
 
 ---
 
 ## 👤 Author
 
-**Your Name**  
-📧 your.email@example.com
+**Jayesh Kamble**  
+📧jayeshavkamble@gmail.com
 
 ---
 
