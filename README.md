@@ -1,6 +1,3 @@
-# Jayesh-Kamble-video-vector-search
-A FastAPI backend that allows users to upload videos, extract frames, compute color histogram feature vectors, store them in Qdrant, search for similar frames using vector similarity, and retrieve frames as images.
-
 # 🎥 Video Vector Search API
 
 A FastAPI backend application that enables users to:
@@ -30,7 +27,7 @@ A FastAPI backend application that enables users to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/video-vector-search.git
+git clone https://github.com/Jayesh-Kamble/video-vector-search.git
 cd video-vector-search
 ```
 
@@ -54,13 +51,38 @@ pip install -r requirements.txt
 
 ---
 
-## 🧱 Start Qdrant (Vector DB)
+## A) BY using 🧱 Start Qdrant (Vector DB)
 
 Ensure Docker is installed, then run:
 
 ```bash
 docker run -p 6333:6333 qdrant/qdrant
 ```
+
+## B) Using the Qdrant Binary (No Docker)
+
+If you downloaded Qdrant as a binary (for example, `qdrant.exe` on Windows or `qdrant` on Linux/Mac), you can run it directly:
+
+1. **Download the Qdrant binary** for your OS from the [official Qdrant releases page](https://github.com/qdrant/qdrant/releases).
+2. **Extract the binary** if needed.
+3. **Open a terminal/command prompt** in the folder containing the binary.
+4. **Run Qdrant:**
+   - On Windows:
+     ```
+     qdrant.exe
+     ```
+   - On Linux/Mac:
+     ```
+     ./qdrant
+     ```
+5. Qdrant will start on port 6333 by default.  
+   You should see a message like:  
+   `Qdrant HTTP listening on 6333`
+
+**Make sure Qdrant is running before starting your FastAPI server!**
+
+**You only need to use one of these methods.**  
+Both will make Qdrant available at `http://localhost:6333` for your project.
 
 ---
 
