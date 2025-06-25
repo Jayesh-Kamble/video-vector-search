@@ -82,7 +82,7 @@ If you downloaded Qdrant as a binary (for example, `qdrant.exe` on Windows or `q
 **Make sure Qdrant is running before starting your FastAPI server!**
 
 **You only need to use one of these methods.**  
-Both will make Qdrant available at `http://localhost:6333` for your project.
+Both will make Qdrant available at `http://localhost:6333` for this project.
 
 ---
 
