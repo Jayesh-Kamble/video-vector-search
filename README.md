@@ -1,4 +1,4 @@
-# 🎥 Video Vector Search API
+#🎥 Video Vector Search API
 
 A FastAPI backend application that enables users to:
 
@@ -25,7 +25,6 @@ A FastAPI backend application that enables users to:
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/Jayesh-Kamble/video-vector-search.git
 cd video-vector-search
@@ -92,8 +91,7 @@ Both will make Qdrant available at `http://localhost:6333` for this project.
 uvicorn app.main:app --reload --port 8000
 ```
 
-Once running, visit: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-
+Once running, visit:  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 ---
 
 ## 📝 API Usage Guide
